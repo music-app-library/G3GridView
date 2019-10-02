@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70D53051EC6977700525575 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D53041EC6977700525575 /* PageViewController.swift */; };
+		C70D53071EC699FE00525575 /* PageGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70D53061EC699FE00525575 /* PageGridViewCell.swift */; };
+		C70D53091EC69A1B00525575 /* PageGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C70D53081EC69A1B00525575 /* PageGridViewCell.xib */; };
+		C77287631DEABECC005154DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77287621DEABECC005154DE /* AppDelegate.swift */; };
+		C77287651DEABECC005154DE /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77287641DEABECC005154DE /* TimeTableViewController.swift */; };
+		C77287681DEABECC005154DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77287661DEABECC005154DE /* Main.storyboard */; };
+		C772876A1DEABECC005154DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77287691DEABECC005154DE /* Assets.xcassets */; };
+		C772876D1DEABECC005154DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C772876B1DEABECC005154DE /* LaunchScreen.storyboard */; };
+		C772877D1DEABF3C005154DE /* GridView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C772877A1DEABF36005154DE /* GridView.framework */; };
+		C772877E1DEABF3C005154DE /* GridView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C772877A1DEABF36005154DE /* GridView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C7E9F9A51EC52C1D00D029AF /* DateTimeGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F9A41EC52C1D00D029AF /* DateTimeGridViewCell.swift */; };
+		C7E9F9A81EC52CCA00D029AF /* DateTimeGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E9F9A71EC52CCA00D029AF /* DateTimeGridViewCell.xib */; };
+		C7E9F9AA1EC52E7C00D029AF /* ChannelListGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F9A91EC52E7C00D029AF /* ChannelListGridViewCell.swift */; };
+		C7E9F9AC1EC52EA900D029AF /* ChannelListGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E9F9AB1EC52EA900D029AF /* ChannelListGridViewCell.xib */; };
+		C7E9F9AE1EC5325D00D029AF /* TimeTableGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F9AD1EC5325D00D029AF /* TimeTableGridViewCell.swift */; };
+		C7E9F9B01EC5329100D029AF /* TimeTableGridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E9F9AF1EC5329100D029AF /* TimeTableGridViewCell.xib */; };
+		C7E9F9B21EC5383600D029AF /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F9B11EC5383600D029AF /* Slot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C77287791DEABF36005154DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77287741DEABF36005154DE /* GridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C77286A01DEAAC26005154DE;
+			remoteInfo = GridView;
+		};
+		C772877B1DEABF36005154DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77287741DEABF36005154DE /* GridView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C77286A91DEAAC26005154DE;
+			remoteInfo = GridViewTests;
+		};
+		C772877F1DEABF3C005154DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77287741DEABF36005154DE /* GridView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C772869F1DEAAC26005154DE;
+			remoteInfo = GridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C77287811DEABF3C005154DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C772877E1DEABF3C005154DE /* GridView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C70D53041EC6977700525575 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C70D53061EC699FE00525575 /* PageGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageGridViewCell.swift; sourceTree = "<group>"; };
+		C70D53081EC69A1B00525575 /* PageGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageGridViewCell.xib; sourceTree = "<group>"; };
+		C772875F1DEABECC005154DE /* GridViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77287621DEABECC005154DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C77287641DEABECC005154DE /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		C77287671DEABECC005154DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C77287691DEABECC005154DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C772876C1DEABECC005154DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C772876E1DEABECC005154DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77287741DEABF36005154DE /* GridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GridView.xcodeproj; path = ../GridView.xcodeproj; sourceTree = "<group>"; };
+		C7E9F9A41EC52C1D00D029AF /* DateTimeGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeGridViewCell.swift; sourceTree = "<group>"; };
+		C7E9F9A71EC52CCA00D029AF /* DateTimeGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateTimeGridViewCell.xib; sourceTree = "<group>"; };
+		C7E9F9A91EC52E7C00D029AF /* ChannelListGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListGridViewCell.swift; sourceTree = "<group>"; };
+		C7E9F9AB1EC52EA900D029AF /* ChannelListGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelListGridViewCell.xib; sourceTree = "<group>"; };
+		C7E9F9AD1EC5325D00D029AF /* TimeTableGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableGridViewCell.swift; sourceTree = "<group>"; };
+		C7E9F9AF1EC5329100D029AF /* TimeTableGridViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeTableGridViewCell.xib; sourceTree = "<group>"; };
+		C7E9F9B11EC5383600D029AF /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C772875C1DEABECC005154DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C772877D1DEABF3C005154DE /* GridView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77287561DEABECC005154DE = {
+			isa = PBXGroup;
+			children = (
+				C77287741DEABF36005154DE /* GridView.xcodeproj */,
+				C77287611DEABECC005154DE /* GridViewExample */,
+				C77287601DEABECC005154DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77287601DEABECC005154DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C772875F1DEABECC005154DE /* GridViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77287611DEABECC005154DE /* GridViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				C77287621DEABECC005154DE /* AppDelegate.swift */,
+				C77287661DEABECC005154DE /* Main.storyboard */,
+				C77287691DEABECC005154DE /* Assets.xcassets */,
+				C772876B1DEABECC005154DE /* LaunchScreen.storyboard */,
+				C772876E1DEABECC005154DE /* Info.plist */,
+				C7E9F9A91EC52E7C00D029AF /* ChannelListGridViewCell.swift */,
+				C7E9F9AB1EC52EA900D029AF /* ChannelListGridViewCell.xib */,
+				C7E9F9A41EC52C1D00D029AF /* DateTimeGridViewCell.swift */,
+				C7E9F9A71EC52CCA00D029AF /* DateTimeGridViewCell.xib */,
+				C70D53061EC699FE00525575 /* PageGridViewCell.swift */,
+				C70D53081EC69A1B00525575 /* PageGridViewCell.xib */,
+				C70D53041EC6977700525575 /* PageViewController.swift */,
+				C7E9F9AD1EC5325D00D029AF /* TimeTableGridViewCell.swift */,
+				C7E9F9AF1EC5329100D029AF /* TimeTableGridViewCell.xib */,
+				C77287641DEABECC005154DE /* TimeTableViewController.swift */,
+				C7E9F9B11EC5383600D029AF /* Slot.swift */,
+			);
+			path = GridViewExample;
+			sourceTree = "<group>";
+		};
+		C77287751DEABF36005154DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C772877A1DEABF36005154DE /* GridView.framework */,
+				C772877C1DEABF36005154DE /* GridViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C772875E1DEABECC005154DE /* GridViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77287711DEABECC005154DE /* Build configuration list for PBXNativeTarget "GridViewExample" */;
+			buildPhases = (
+				C772875B1DEABECC005154DE /* Sources */,
+				C772875C1DEABECC005154DE /* Frameworks */,
+				C772875D1DEABECC005154DE /* Resources */,
+				C77287811DEABF3C005154DE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77287801DEABF3C005154DE /* PBXTargetDependency */,
+			);
+			name = GridViewExample;
+			productName = GridViewExample;
+			productReference = C772875F1DEABECC005154DE /* GridViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77287571DEABECC005154DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Kyohei Ito";
+				TargetAttributes = {
+					C772875E1DEABECC005154DE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MX36A76L68;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C772875A1DEABECC005154DE /* Build configuration list for PBXProject "GridViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C77287561DEABECC005154DE;
+			productRefGroup = C77287601DEABECC005154DE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C77287751DEABF36005154DE /* Products */;
+					ProjectRef = C77287741DEABF36005154DE /* GridView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C772875E1DEABECC005154DE /* GridViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C772877A1DEABF36005154DE /* GridView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GridView.framework;
+			remoteRef = C77287791DEABF36005154DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C772877C1DEABF36005154DE /* GridViewTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GridViewTests.xctest;
+			remoteRef = C772877B1DEABF36005154DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C772875D1DEABECC005154DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E9F9AC1EC52EA900D029AF /* ChannelListGridViewCell.xib in Resources */,
+				C7E9F9B01EC5329100D029AF /* TimeTableGridViewCell.xib in Resources */,
+				C772876D1DEABECC005154DE /* LaunchScreen.storyboard in Resources */,
+				C772876A1DEABECC005154DE /* Assets.xcassets in Resources */,
+				C7E9F9A81EC52CCA00D029AF /* DateTimeGridViewCell.xib in Resources */,
+				C77287681DEABECC005154DE /* Main.storyboard in Resources */,
+				C70D53091EC69A1B00525575 /* PageGridViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C772875B1DEABECC005154DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77287651DEABECC005154DE /* TimeTableViewController.swift in Sources */,
+				C70D53051EC6977700525575 /* PageViewController.swift in Sources */,
+				C77287631DEABECC005154DE /* AppDelegate.swift in Sources */,
+				C7E9F9B21EC5383600D029AF /* Slot.swift in Sources */,
+				C7E9F9A51EC52C1D00D029AF /* DateTimeGridViewCell.swift in Sources */,
+				C7E9F9AE1EC5325D00D029AF /* TimeTableGridViewCell.swift in Sources */,
+				C7E9F9AA1EC52E7C00D029AF /* ChannelListGridViewCell.swift in Sources */,
+				C70D53071EC699FE00525575 /* PageGridViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C77287801DEABF3C005154DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GridView;
+			targetProxy = C772877F1DEABF3C005154DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C77287661DEABECC005154DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77287671DEABECC005154DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C772876B1DEABECC005154DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C772876C1DEABECC005154DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C772876F1DEABECC005154DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C77287701DEABECC005154DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77287721DEABECC005154DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX36A76L68;
+				INFOPLIST_FILE = GridViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyoheiito.GridViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C77287731DEABECC005154DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX36A76L68;
+				INFOPLIST_FILE = GridViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyoheiito.GridViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C772875A1DEABECC005154DE /* Build configuration list for PBXProject "GridViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C772876F1DEABECC005154DE /* Debug */,
+				C77287701DEABECC005154DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77287711DEABECC005154DE /* Build configuration list for PBXNativeTarget "GridViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77287721DEABECC005154DE /* Debug */,
+				C77287731DEABECC005154DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C77287571DEABECC005154DE /* Project object */;
+}
